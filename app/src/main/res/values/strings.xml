@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Warisan Kuliner</string>
+    <!--
+        tempat asal,
+        daerah,
+        bahan utama,
+        variasi
+    -->
+    <string name="text_desc_img">Image Kuliner</string>
+    <string name="text_nama_kuliner">Nama Kuliner</string>
+    <string name="text_tempat_asal">Tempat Asal:</string>
+    <string name="text_daerah">Daerah:</string>
+    <string name="text_bahan_utama">Bahan Utama:</string>
+    <string name="text_variasi">Variasi:</string>
+    <string name="text_desc_kuliner">Deskripsi</string>
+
+    <!-- Data Image Kuliner   -->
+    <string-array name="data_image_kuliner">
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/ca/Pempek_Kuah_Cuko.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/31/Nasi_Gudeg.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/4c/Ayam_bakar_khas_Taliwang_2.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/eb/Tongseng_Dish.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e8/Pecel_Hariadhi.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f4/Mie_Aceh_with_beef.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/b/b7/Nasi_tempong_ikan_goreng_1.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/4a/Sop_Konro.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/0f/Satay_Lilit.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/2/2e/Ketoprak_Boplo.JPG</item>
+    </string-array>
+
+    <!--  Data Nama Kuliner  -->
+    <string-array name="data_nama_kuliner">
+        <item>Pempek</item>
+        <item>Nasi Gudeg</item>
+        <item>Ayam Taliwang</item>
+        <item>Tongseng</item>
+        <item>Pecel</item>
+        <item>Mi Aceh</item>
+        <item>Nasi Tempong</item>
+        <item>Sop Konro</item>
+        <item>Sate lilit</item>
+        <item>Ketoprak</item>
+    </string-array>
+
+    <!--  Data Tempat Asal  -->
+    <string-array name="data_tempat_asal">
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+        <item>Indonesia</item>
+    </string-array>
+
+    <!--  Data Daerah  -->
+    <string-array name="data_daerah">
+        <item>Palembang, Sumatera Selatan</item>
+        <item>Daerah Istimewa Yogyakarta</item>
+        <item>Taliwang, Sumbawa Barat, Nusa Tenggara Barat</item>
+        <item>Surakarta, Boyolali, Klaten, Magelang, Daerah Istimewa Yogyakarta</item>
+        <item>Daerah Istimewa Yogyakarta, menyebar secara nasional ke seluruh Indonesia</item>
+        <item>Aceh</item>
+        <item>Banyuwangi, Jawa Timur</item>
+        <item>Makassar</item>
+        <item>Bali</item>
+        <item></item>
+    </string-array>
+
+    <!--  Data Bahan Utama  -->
+    <string-array name="data_bahan_utama">
+        <item>Daging ikan, tapioka, telur ayam, air matang, garam</item>
+        <item>Nangka muda, santan, gula aren, cabai, aneka bumbu</item>
+        <item>Daging ayam kampung</item>
+        <item>Daging, kubis, tomat, bawang merah, bawang putih, kuah gulai, kecap manis, merica</item>
+        <item>Sayur, sambal kacang</item>
+        <item>Mi, daging (kambing atau sapi) atau makanan laut (udang dan ikan), rempah sejenis kari, seledri, daun bawang, bawang merah</item>
+        <item>Sambal</item>
+        <item>Iga sapi</item>
+        <item>Daging cincang (babi, ayam, ikan atau sapi) berbumbu.</item>
+        <item>gorengan tahu, lontong atau ketupat, tauge, bihun, mentimun, disajikan dengan saus kacang dan kecap manis, dengan taburan krupuk dan bawang merah goreng</item>
+    </string-array>
+
+    <!--  Data Variasi  -->
+    <string-array name="data_variasi">
+        <item>Pempek kapal selam (pempek telok besak), pempek telok kecik, pempek keriting, pempek lenjer, pempek kulit, pempek tahu, pempek adaan, pempek pistel, pempek udang, pempek belah, pempek panggang, pempek lenggang</item>
+        <item>Gudeg kering, gudeg Solo, dan gudeg putih</item>
+        <item>-</item>
+        <item>Tongseng berkuah</item>
+        <item>Pecel lele, nasi pecel, pecel tumpang, pecel Madiun, pecel pakis Colo</item>
+        <item>Mi aceh goreng (basah atau kering), mi aceh tumis (dengan sedikit kuah) dan mi aceh kuah</item>
+        <item>Pecel lele, nasi lalapan</item>
+        <item>Konro bakar</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+
+
+    <!-- Data Desc Kuliner   -->
+    <string-array name="data_desc_kuliner">
+        <item>Pempek mempunyai sejarah yang unik dan tidak dapat dilepaskan dari masuknya para perantau Tionghoa ke Palembang semasa pemerintahan Kesultanan Palembang Darussalam ketika dipimpin oleh Sultan Mahmud Badaruddin II pada abad ke-16 Masehi. Berdasarkan cerita masyarakat, pempek dijual keliling kota oleh seseorang asal Tionghoa yang sering dipanggil Apek di kisaran tahun 1617 M. Apek sendiri di dalam Bahasa Tionghoa memiliki arti paman atau laki-laki tua, Apek sendiri pada saat itu berusia sekitar 65 tahun. Apek yang tinggal di pinggiran Sungai Musi dan memiliki ide untuk memanfaatkan potensi ikan yang melimpah, dengan mengolahnya menjadi makanan selain digulai dan digoreng. Hingga akhirnya, Apek mengolah ikan hasil tangkapannya dan mencampurnya dengan tepung. Mirip dengan makanan bakso yang dibawa pedagang Tiongkok ke Palembang. Setelah itu Apek pun berkeliling menjual produk hasil buatannya yang pada saat itu belum memiliki nama. Saat ada yang ingin membeli, mereka akan memanggil Apek dengan ujung namanya saja, yaitu "peek..peek", hingga akhirnya menjadi asal mula nama pempek. Dengan demikian, bisa disimpulkan bahwa sejarah pempek melibatkan akulturasi kebudayaan kuliner dari Tiongkok. Pempek sendiri adalah adaptasi Palembang dari ngo hiang dan kekkian, yang sama-sama merupakan makanan olahan dari ikan. Namun alih-alih disajikan ke dalam sup atau digoreng saja, pempek terkenal akan cuko, yaitu saus dengan rasa manis, asam dan pedas.</item>
+        <item>Gudeg dibuat dari buah nangka yang tumbuh di banyak pulau di Indonesia, khususnya di Jawa, dan merupakan tanaman pangan yang cukup penting. Sejumlah besar rempah-rempah dan bumbu tertentu digunakan dalam proses perebusan, rempah ini juga meningkatkan masa simpan gudeg. Di Jawa Tengah, ada legenda yang mengaitkan asal-usul gudeg dengan berdirinya Kesultanan Mataram pada akhir abad ke-16. Dikisahkan bahwa pada saat itu pejuang yang membuka hutan untuk pembangunan ibu kota negara baru di wilayah Yogyakarta saat ini tidak mendapat pasokan makanan yang memadai. Sementara itu hanya pohon nangka dan kelapa yang tumbuh subur di hutan tersebut. Saat masih muda buah nangka keras, dan tidak dapat dimakan mentah, mereka pun merebus buah nangka muda dalam santan dalam panci logam besar dan mengaduknya dengan papan kayu. Proses memasak seperti ini dalam bahasa jawa sehari-hari disebut hangudêk (jw. Hangudek)—"mengaduk". Dari kata inilah menurut legenda, menjadi asal mula nama makanan yang ditemukan oleh prajurit Mataram tersebut, "Gudeg".</item>
+        <item>Ayam Taliwang adalah makanan khas yang berasal dari Taliwang, Sumbawa Barat, Nusa Tenggara Barat. Makanan ini berbahan dasar daging ayam. Daging ayam yang disajikan berasal dari ayam kampung muda yang dibakar kemudian dibumbui dengan semacam saus yang bahannya antara lain cabai merah kering, bawang merah, bawang putih, tomat, terasi goreng, kencur, gula merah, dan garam. Makanan ini biasanya disajikan bersama makanan khas Lombok yang lain, misalnya plecing kangkung.</item>
+        <item>Tongseng (bahasa Jawa: ꦠꦺꦴꦁꦱꦺꦁ, translit. Tongsèng) adalah sejenis hidangan gulai daging berkuah dengan bumbu yang lebih kuat. Tongseng pada umumnya menggunakan daging kambing,meskipun ada pula tongseng daging sapi, daging domba, atau daging kerbau. Sebagai tambahan, ke dalam kuah kental ini dimasukkan sayuran seperti kol, bawang putih, tomat, dan kecap manis. Bumbunya merupakan oseng-oseng atau tumisan yang terdiri dari campuran garam, bawang putih, kecap, dan lada. Biasanya tongseng dijual bersamaan dengan sate kambing. Tongseng dianggap sebagai makanan khas daerah Solo, Klaten, Yogyakarta, Magelang dan sekitarnya. Akan tetapi, ada yang berpendapat bahwa tongseng berasal dari daerah Klego di Boyolali, Jawa Tengah. Ada pula variasi Tongseng daging suir tahu di Kebumen.</item>
+        <item>Pecel (bentuk tidak baku: pecal)adalah makanan yang terdiri atas sayuran rebus, seperti kacang panjang, bayam, taoge yang disiram dengan kuah sambal kacang dan sebagainya.Pecel merupakan penganan khas suku Jawa yang berasal dari Daerah Istimewa Yogyakarta, Jawa Tengah, atau Jawa Timur (yang pasti dari daerah tradisional Suku Jawa). Setiap daerah mengembangkan pecel dengan selera dan kekhasannya masing mulai dari variasi isi hingga kecenderungan rasa yang berbeda, di Jawa Timur bumbu pecel akan terasa lebih pedas dan asin, sedangkan di Jawa bagian tengah cenderung terasa manis dan gurih saja. Pecel sudah ada sejak abad ke-9 masehi. Penganan tradisional yang kaya gizi ini sangat populer di Indonesia terutama di Jawa Timur, Jawa Tengah, Ponorogo Ngawi, Madiun dan D.I Yogyakarta.</item>
+        <item>Mi aceh adalah masakan mi pedas khas Aceh di Indonesia. Mi kuning tebal dengan irisan daging sapi, daging kambing atau makanan laut (udang dan cumi) disajikan dalam sup sejenis kari yang gurih dan pedas. Mi aceh biasanya ditaburi dengan bawang goreng dan disajikan bersama emping, potongan bawang merah, mentimun, dan jeruk nipis. Mi aceh biasanya disajikan dalam tiga bentuk yaitu mi kuah, mi goreng basah, dan mi goreng kering. Di Aceh, karena ekslusivitas makanan di setiap daerah, mi Aceh hanya merujuk pada mi goreng, sedangkan istilah mi Aceh hanya digunakan di luar provinsi Aceh. Keunikan cita rasa mie Aceh terletak pada racikan bumbu yang kaya akan rempah-rempah, sehingga menghasilkan rasa yang kuat di lidah. Mienya pun cukup unik karena berwarna kuning dan bentuknya tebal pipih. Mie Aceh memiliki beberapa varian, ada yang kering, nyemek, dan basah. Toppingnya pun beragam, ada telur, daging, udang, dan lainnya sesuai selera.</item>
+        <item>Nasi tempong atau sego tempong adalah makanan khas Kabupaten Banyuwangi berupa kumpulan sayuran yang sudah direbus seperti bayam, kenikir dan daun kemangi serta lauk tahu, tempe, bakwan jagung goreng, juga ikan jambal goreng tepung. Nasi ini kemudian disiram dengan sambal kacang. Ciri khasnya adalah bau kencur kuat dari sambalnya. Namun, ada pula yang menggunakan sambal terasi pedas. Tempong adalah kata dalam Bahasa Osing yang berarti tampar dalam bahasa Indonesia. Dinamai demikian karena rasa pedas dari nasi tempong memberikan sensasi seperti ditampar.</item>
+        <item>Sup konro atau Pallu konro adalah masakan sup iga sapi khas Indonesia yang berasal dari tradisi Etnik Makassar. Sup ini biasanya dibuat dengan bahan iga sapi atau daging sapi. Masakan berkuah warna coklat kehitaman ini biasa dimakan dengan burasa dan ketupat yang dipotong-potong terlebih dahulu. Warna gelap ini berasal dari buah kluwek yang memang berwarna hitam. Bumbunya relatif "kuat" akibat digunakannya ketumbar. Rasa pedas dan berbumbu ini dibuat dari campuran rempah-rempah, seperti ketumbar, keluwak (buah yang menyebabkan masakan berwarna hitam), sedikit pala, kunyit, kencur, kayu manis, asam, daun lemon, cengkih, dan daun salam.</item>
+        <item>Sate Lilit adalah sebuah varian sate asal Bali. Sate ini terbuat dari daging babi, ikan, ayam, daging sapi, atau bahkan kura-kura yang dicincang, kemudian dicampur dengan parutan kelapa, santan, jeruk nipis, bawang merah, dan merica. Daging cincang yang telah berbumbu dilekatkan pada sebuah bambu atau tebu, kemudian dipanggang di atas arang. Tidak seperti sate lainnya yang dibuat dengan tusuk sate yang sempit dan tajam, tusuk sate lilit berbentuk datar dan lebar. Permukaan yang lebih luas memungkinkan daging cincang untuk melekat. Istilah lilit dalam bahasa Bali dan Indonesia berarti "membungkus", yang sesuai untuk cara pembuatan sate ini.</item>
+        <item>Nama makanan ini diambil dari bunyi piring yang terjatuh. Awalnya, penjual makanan mencoba untuk membuat makanan baru yang berbeda agar laris dijual. Ia membuat makanan dari bihun, tahu dan ketupat yang disiram oleh bumbu. Setelah selesai menghidangkan makanan tersebut ke atas piring, tangannya tergelincir dan membuat makanan buatannya terjatuh. Piring yang terjatuh itu mengeluarkan bunyi (ketuprak). Oleh karenanya, makanan ini diberi nama ketoprak. Ada pula yang mengatakan jika nama ketoprak merupakan akronim dari ketupat dan toge yang digeprak.</item>
+    </string-array>
+
+
+</resources>
