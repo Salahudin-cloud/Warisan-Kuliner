@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Warisan Kuliner</string>
+
+<!--    My Profile -->
+    <string name="my_name">Muhammad Salahudin Al Ayyubi</string>
+    <string name="my_gmail">salahudin2122004@gmail.com</string>
+
+
     <!--
         tempat asal,
         daerah,
@@ -7,12 +13,23 @@
         variasi
     -->
     <string name="text_desc_img">Image Kuliner</string>
-    <string name="text_nama_kuliner">Nama Kuliner</string>
+    <string name="text_nama_kuliner">Nama Kuliner:</string>
     <string name="text_tempat_asal">Tempat Asal:</string>
     <string name="text_daerah">Daerah:</string>
     <string name="text_bahan_utama">Bahan Utama:</string>
     <string name="text_variasi">Variasi:</string>
     <string name="text_desc_kuliner">Deskripsi</string>
+    <string name="text_share">Share</string>
+
+
+
+<!--    sampel -->
+    <string name="sample_nama">Nasi Tempong</string>
+    <string name="sample_tempat">Indonesia</string>
+    <string name="sample_daerah">Daerah Istimewa Yogyakarta, menyebar secara nasional ke seluruh Indonesia</string>
+    <string name="sample_bahan_utama">gorengan tahu, lontong atau ketupat, tauge, bihun, mentimun, disajikan dengan saus kacang dan kecap manis, dengan taburan krupuk dan bawang merah goreng</string>
+    <string name="sample_variasi">Pempek kapal selam (pempek telok besak), pempek telok kecik, pempek keriting, pempek lenjer, pempek kulit, pempek tahu, pempek adaan, pempek pistel, pempek udang, pempek belah, pempek panggang, pempek lenggang</string>
+    <string name="sample_desc">Pempek mempunyai sejarah yang unik dan tidak dapat dilepaskan dari masuknya para perantau Tionghoa ke Palembang semasa pemerintahan Kesultanan Palembang Darussalam ketika dipimpin oleh Sultan Mahmud Badaruddin II pada abad ke-16 Masehi. Berdasarkan cerita masyarakat, pempek dijual keliling kota oleh seseorang asal Tionghoa yang sering dipanggil Apek di kisaran tahun 1617 M. Apek sendiri di dalam Bahasa Tionghoa memiliki arti paman atau laki-laki tua, Apek sendiri pada saat itu berusia sekitar 65 tahun. Apek yang tinggal di pinggiran Sungai Musi dan memiliki ide untuk memanfaatkan potensi ikan yang melimpah, dengan mengolahnya menjadi makanan selain digulai dan digoreng. Hingga akhirnya, Apek mengolah ikan hasil tangkapannya dan mencampurnya dengan tepung. Mirip dengan makanan bakso yang dibawa pedagang Tiongkok ke Palembang. Setelah itu Apek pun berkeliling menjual produk hasil buatannya yang pada saat itu belum memiliki nama. Saat ada yang ingin membeli, mereka akan memanggil Apek dengan ujung namanya saja, yaitu "peek..peek", hingga akhirnya menjadi asal mula nama pempek. Dengan demikian, bisa disimpulkan bahwa sejarah pempek melibatkan akulturasi kebudayaan kuliner dari Tiongkok. Pempek sendiri adalah adaptasi Palembang dari ngo hiang dan kekkian, yang sama-sama merupakan makanan olahan dari ikan. Namun alih-alih disajikan ke dalam sup atau digoreng saja, pempek terkenal akan cuko, yaitu saus dengan rasa manis, asam dan pedas.</string>
 
     <!-- Data Image Kuliner   -->
     <string-array name="data_image_kuliner">
@@ -99,7 +116,6 @@
     </string-array>
 
 
-
     <!-- Data Desc Kuliner   -->
     <string-array name="data_desc_kuliner">
         <item>Pempek mempunyai sejarah yang unik dan tidak dapat dilepaskan dari masuknya para perantau Tionghoa ke Palembang semasa pemerintahan Kesultanan Palembang Darussalam ketika dipimpin oleh Sultan Mahmud Badaruddin II pada abad ke-16 Masehi. Berdasarkan cerita masyarakat, pempek dijual keliling kota oleh seseorang asal Tionghoa yang sering dipanggil Apek di kisaran tahun 1617 M. Apek sendiri di dalam Bahasa Tionghoa memiliki arti paman atau laki-laki tua, Apek sendiri pada saat itu berusia sekitar 65 tahun. Apek yang tinggal di pinggiran Sungai Musi dan memiliki ide untuk memanfaatkan potensi ikan yang melimpah, dengan mengolahnya menjadi makanan selain digulai dan digoreng. Hingga akhirnya, Apek mengolah ikan hasil tangkapannya dan mencampurnya dengan tepung. Mirip dengan makanan bakso yang dibawa pedagang Tiongkok ke Palembang. Setelah itu Apek pun berkeliling menjual produk hasil buatannya yang pada saat itu belum memiliki nama. Saat ada yang ingin membeli, mereka akan memanggil Apek dengan ujung namanya saja, yaitu "peek..peek", hingga akhirnya menjadi asal mula nama pempek. Dengan demikian, bisa disimpulkan bahwa sejarah pempek melibatkan akulturasi kebudayaan kuliner dari Tiongkok. Pempek sendiri adalah adaptasi Palembang dari ngo hiang dan kekkian, yang sama-sama merupakan makanan olahan dari ikan. Namun alih-alih disajikan ke dalam sup atau digoreng saja, pempek terkenal akan cuko, yaitu saus dengan rasa manis, asam dan pedas.</item>
@@ -113,6 +129,8 @@
         <item>Sate Lilit adalah sebuah varian sate asal Bali. Sate ini terbuat dari daging babi, ikan, ayam, daging sapi, atau bahkan kura-kura yang dicincang, kemudian dicampur dengan parutan kelapa, santan, jeruk nipis, bawang merah, dan merica. Daging cincang yang telah berbumbu dilekatkan pada sebuah bambu atau tebu, kemudian dipanggang di atas arang. Tidak seperti sate lainnya yang dibuat dengan tusuk sate yang sempit dan tajam, tusuk sate lilit berbentuk datar dan lebar. Permukaan yang lebih luas memungkinkan daging cincang untuk melekat. Istilah lilit dalam bahasa Bali dan Indonesia berarti "membungkus", yang sesuai untuk cara pembuatan sate ini.</item>
         <item>Nama makanan ini diambil dari bunyi piring yang terjatuh. Awalnya, penjual makanan mencoba untuk membuat makanan baru yang berbeda agar laris dijual. Ia membuat makanan dari bihun, tahu dan ketupat yang disiram oleh bumbu. Setelah selesai menghidangkan makanan tersebut ke atas piring, tangannya tergelincir dan membuat makanan buatannya terjatuh. Piring yang terjatuh itu mengeluarkan bunyi (ketuprak). Oleh karenanya, makanan ini diberi nama ketoprak. Ada pula yang mengatakan jika nama ketoprak merupakan akronim dari ketupat dan toge yang digeprak.</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.warisankuliner.data.Kuliner
+import com.example.warisankuliner.models.Kuliner
 import com.example.warisankuliner.databinding.CardListKulinerBinding
 
 class KulinerAdapter(
@@ -33,6 +33,9 @@ class KulinerAdapter(
 
         // set nama kuliner
         holder.binding.kulinerNama.text = setNamaKuliner
+
+
+
     }
 
 }

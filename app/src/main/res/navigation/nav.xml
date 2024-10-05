@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/listKulinerBlank">
+    <fragment
+        android:id="@+id/listKulinerBlank"
+        android:name="com.example.warisankuliner.ui.kuliner.ListKulinerBlank"
+        android:label="Home"
+        tools:layout="@layout/fragment_list_kuliner_blank" >
+        <action
+            android:id="@+id/action_listKulinerBlank_to_detailKulinerFragment"
+            app:destination="@id/detailKulinerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.warisankuliner.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/detailKulinerFragment"
+        android:name="com.example.warisankuliner.ui.kuliner.DetailKulinerFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_detail_kuliner" >
+        <action
+            android:id="@+id/action_detailKulinerFragment_to_listKulinerBlank"
+            app:destination="@id/listKulinerBlank" />
+    </fragment>
+</navigation>

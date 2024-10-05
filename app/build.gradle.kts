@@ -13,11 +13,10 @@ android {
     }
     defaultConfig {
         applicationId = "com.example.warisankuliner"
-        minSdk = 33
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -38,12 +37,15 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "30.0.0"
 }
 
 dependencies {
 
 //    glide
     implementation (libs.glide)
+    // circle image
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
 
 
     implementation(libs.androidx.core.ktx)

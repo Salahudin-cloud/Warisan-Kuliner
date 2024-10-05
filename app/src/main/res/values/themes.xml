@@ -3,9 +3,19 @@
     <style name="Base.Theme.WarisanKuliner" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
          <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+    </style>
+
+<!--    theme splash screen -->
+    <style name="Theme.SplashScreen" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
     </style>
 
+    <!-- Define a custom toolbar theme -->
+    <style name="CustomToolbarTheme" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <!-- Change the drawer icon color here -->
+        <item name="colorControlNormal">@color/textColor</item>
+    </style>
 
 
     <style name="Theme.WarisanKuliner" parent="Base.Theme.WarisanKuliner" />
