@@ -11,6 +11,16 @@ class KulinerAdapter(
     private val listKuliner: ArrayList<Kuliner>
 ) : RecyclerView.Adapter<KulinerAdapter.ListViewHolder>(){
 
+    private lateinit var onItemClickedCallBack : OnItemClickedCallBack
+
+    interface OnItemClickedCallBack{
+        fun onItemClicked(data : Kuliner)
+    }
+
+    fun setOnItemClickCallBack(OnItemClickedCallBack: OnItemClickedCallBack) {
+        this.onItemClickedCallBack = OnItemClickedCallBack
+    }
+
    inner class ListViewHolder (val binding : CardListKulinerBinding) :RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
@@ -34,6 +44,10 @@ class KulinerAdapter(
         // set nama kuliner
         holder.binding.kulinerNama.text = setNamaKuliner
 
+
+        holder.itemView.setOnClickListener{
+            onItemClickedCallBack.onItemClicked(listKuliner[holder.adapterPosition])
+        }
 
 
     }

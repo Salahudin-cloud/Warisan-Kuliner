@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.warisankuliner.R
 import com.example.warisankuliner.adapter.KulinerAdapter
@@ -35,15 +37,29 @@ class ListKulinerBlank : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.recylerviewKuliner.setHasFixedSize(true)
 
+
+        kulinerList.clear()
         kulinerList.addAll(getListKuliner())
         showRecyleView()
     }
+
+
 
     private fun showRecyleView(){
         binding.recylerviewKuliner.layoutManager = LinearLayoutManager(requireContext())
         val kulinerAdapter = KulinerAdapter(kulinerList)
         binding.recylerviewKuliner.adapter = kulinerAdapter
+
+
+        // implement clicked item
+        kulinerAdapter.setOnItemClickCallBack(object : KulinerAdapter.OnItemClickedCallBack {
+            override fun onItemClicked(data: Kuliner) {
+                val send = ListKulinerBlankDirections.actionListKulinerBlankToDetailKulinerFragment(data)
+                findNavController().navigate(send)
+            }
+        })
     }
+
 
     private fun getListKuliner(): ArrayList<Kuliner> {
         val dataImageKuliner = resources.getStringArray(R.array.data_image_kuliner)
